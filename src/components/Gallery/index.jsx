@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 const items = [
-  "/src/assets/1.jpg",
-  "/src/assets/3.jpg",
-  "/src/assets/4.jpg",
-  "/src/assets/6.jpg",
+  "src/assets/1.jpg",
+  "src/assets/3.jpg",
+  "src/assets/4.jpg",
+  "src/assets/6.jpg",
 ]
 
 const itemsWide = [
-  "/src/assets/2.jpg",
-  "/src/assets/5.jpg",
+  "src/assets/2.jpg",
+  "src/assets/5.jpg",
 ]
 
 export default function Gallery() {
