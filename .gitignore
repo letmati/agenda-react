@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Production build directory
+dist/
+
+# Local environment variables file
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac OS files
+.DS_Store
