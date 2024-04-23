@@ -2,8 +2,6 @@ import React from "react";
 import logo from "/src/assets/logo-portada.png";
 import portada from "/src/assets/portada.jpg";
 
-console.log(portada)
-
 export default function Portada() {
   return (
     <section
