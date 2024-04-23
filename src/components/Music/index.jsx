@@ -1,5 +1,5 @@
 import React from "react";
-import songs from "/src/assets/icono-canciones.svg";
+import songs from "/assets/icono-canciones.svg";
 
 export default function Music() {
   return (

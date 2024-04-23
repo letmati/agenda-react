@@ -1,5 +1,5 @@
 import React from "react";
-import dresscode from "/src/assets/icono-dresscode.svg";
+import dresscode from "/assets/icono-dresscode.svg";
 
 export default function Code() {
   return (

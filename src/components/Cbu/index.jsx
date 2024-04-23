@@ -1,5 +1,5 @@
 import React from "react";
-import regalo from "/src/assets/icono-regalo.svg";
+import regalo from "/assets/icono-regalo.svg";
 
 export default function Cbu() {
   return (

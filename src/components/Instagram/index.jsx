@@ -1,5 +1,5 @@
 import React from "react";
-import instagram from "/src/assets/icono-instagram.svg";
+import instagram from "/assets/icono-instagram.svg";
 
 export default function Instagram() {
   return (

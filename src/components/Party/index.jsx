@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import iconoCeremonia from "/src/assets/icono-ceremonia.svg";
-import iconoFiesta from "/src/assets/icono-fiesta.svg";
+import iconoCeremonia from "/assets/icono-ceremonia.svg";
+import iconoFiesta from "/assets/icono-fiesta.svg";
 
 export default function Party() {
   return (

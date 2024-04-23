@@ -1,5 +1,5 @@
 import React from "react";
-import portada from "/src/assets/portada.jpg";
+import portada from "/assets/portada.jpg";
 
 export default function Confirmation() {
   return (

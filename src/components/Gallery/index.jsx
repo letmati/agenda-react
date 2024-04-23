@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 
 const items = [
-  "src/assets/1.jpg",
-  "src/assets/3.jpg",
-  "src/assets/4.jpg",
-  "src/assets/6.jpg",
+  "assets/1.jpg",
+  "assets/3.jpg",
+  "assets/4.jpg",
+  "assets/6.jpg",
 ]
 
 const itemsWide = [
-  "src/assets/2.jpg",
-  "src/assets/5.jpg",
+  "assets/2.jpg",
+  "assets/5.jpg",
 ]
 
 export default function Gallery() {
-  const [items2] = useState([2, 5])
   return (
     <section className="flex flex-col items-center pb-14">
       <h1 className="mb-16 text-2xl font-normal tracking-widest">

@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "/src/assets/logo-portada.png";
-import portada from "/src/assets/portada.jpg";
+import logo from "/assets/logo-portada.png";
+import portada from "/assets/portada.jpg";
 
 export default function Portada() {
   return (
