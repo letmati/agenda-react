@@ -3,7 +3,7 @@ import dresscode from "/assets/icono-dresscode.svg";
 
 export default function Code() {
   return (
-    <section id="cbu" className="flex justify-center pt-10 pb-16 bg-[#a4bb8f]">
+    <section id="cbu" className="flex justify-center pt-10 pb-16 bg-[#d2b360]">
       <article
         id="container"
         className="flex flex-col items-center flex-wrap max-w-6xl text-center"

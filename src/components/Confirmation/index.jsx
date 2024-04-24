@@ -5,7 +5,7 @@ export default function Confirmation() {
   return (
     <section
       className="h-[600px] flex flex-col justify-center"
-      style={{backgroundImage: `url(${portada})`}}
+      style={{backgroundImage: `url(${portada})`, backgroundSize: "cover", backgroundPosition: "center"}}
 
     >
       <article id="container">
@@ -17,7 +17,7 @@ export default function Confirmation() {
             Esperamos que seas parte de esta gran celebración. ¡Confirmanos tu
             asistencia!
           </p>
-          <a href="https://api.whatsapp.com/send?phone=5492216046833" className="uppercase bg-[#dab485] rounded-3xl text-white py-2.5 px-10">
+          <a href="https://api.whatsapp.com/send?phone=5492216046833" className="uppercase bg-[#b09e6c] rounded-3xl text-white py-2.5 px-10">
             Confirmar asistencia
           </a>
         </aside>

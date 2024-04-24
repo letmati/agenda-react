@@ -34,7 +34,7 @@ export default function Countdown() {
   });
 
   return (
-    <section id="countdown" className="pt-10 text-center bg-[#a4bb8f] h-60">
+    <section id="countdown" className="pt-10 text-center bg-[#d4b562] h-60">
       <div id="container" className="max-w-6xl w-full px-4 mx-auto">
         <p className="m-3 text-white">Bienvenidos a nuestra boda</p>
         {weddingDay ? (

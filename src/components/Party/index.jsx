@@ -30,7 +30,7 @@ export default function Party() {
                 target="_blank"
                 href="https://maps.app.goo.gl/rAG32pn1FUPy6pTaA"
                 id="btn"
-                className="bg-[#dab485] rounded-3xl py-3 px-10 text-white"
+                className="bg-[#d4b562] rounded-3xl py-3 lg:px-10 px-3 w-full text-white"
               >
                 LLEGAR A LA CEREMONIA
               </a>
@@ -60,7 +60,7 @@ export default function Party() {
                 target="_blank"
                 href="https://maps.app.goo.gl/aQqgBBd9zVXLD22Q8"
                 id="btn"
-                className="bg-[#dab485] rounded-3xl py-3 px-10 text-white"
+                className="bg-[#d4b562] rounded-3xl py-3 lg:px-10 px-3 w-full text-white inline-block"
               >
                 LLEGAR A LA FIESTA
               </a>
