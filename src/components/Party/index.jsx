@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import iconoCeremonia from "/assets/icono-ceremonia.svg";
 import iconoFiesta from "/assets/icono-fiesta.svg";
 
@@ -30,7 +30,7 @@ export default function Party() {
                 target="_blank"
                 href="https://maps.app.goo.gl/rAG32pn1FUPy6pTaA"
                 id="btn"
-                className="bg-[#d4b562] rounded-3xl py-3 lg:px-10 px-3 w-full text-white"
+                className="bg-[#d4b562] rounded-3xl py-3 lg:px-10 px-3 w-full text-white inline-block"
               >
                 LLEGAR A LA CEREMONIA
               </a>
