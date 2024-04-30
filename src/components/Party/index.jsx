@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import iconoCeremonia from "/assets/icono-ceremonia.svg";
 import iconoFiesta from "/assets/icono-fiesta.svg";
+import useOnScreen from "../../hooks/useOnScreen";
 
 export default function Party() {
+  const [renderedTop, setRenderedTop] = useState(false);
+  const [renderedBottom, setRenderedBottom] = useState(false);
+  const refTop = useRef();
+  const refBottom = useRef();
+  const isVisibleTop = useOnScreen(refTop);
+  const isVisibleBottom = useOnScreen(refBottom);
+
+  useEffect(() => {
+    !renderedTop && isVisibleTop && setRenderedTop(true);
+    !renderedBottom && isVisibleBottom && setRenderedBottom(true);
+  }, [isVisibleTop, isVisibleBottom]);
+
   return (
     <section className="ceremonia-fiesta mb-12">
       <div id="container" className="w-full px-4 mx-auto max-w-6xl">
@@ -14,10 +27,18 @@ export default function Party() {
             <img
               src={iconoCeremonia}
               alt="Icono de la ceremonia"
-              className="icon ceremonia fade-in w-40"
-              style={{ opacity: 1 }}
+              ref={refTop}
+              className={`transition-opacity duration-[3000ms] w-40 ${
+                renderedTop ? "opacity-1" : "opacity-0"
+              }`}
             />
-            <div class="animated divCeremonia fadeInUp">
+            <div
+              className={`transform  ${
+                renderedTop
+                  ? "translate-y-0 opacity-100"
+                  : "translate-y-20 opacity-0"
+              }  transition-all ease-in-out duration-[3000ms]`}
+            >
               <h4 className="mt-4 mb-5 text-2xl tracking-widest">CEREMONIA</h4>
               <p className="mb-6 font-light">
                 22 de Junio a las 19:30 hs
@@ -43,10 +64,19 @@ export default function Party() {
           >
             <img
               src={iconoFiesta}
+              ref={refBottom}
               alt=""
-              className="icon fiesta fade-in w-40"
+              className={`transition-opacity duration-[3000ms] w-40 ${
+                renderedBottom ? "opacity-1" : "opacity-0"
+              }`}
             />
-            <div class="animated divFiesta fadeInUp">
+            <div
+              className={`transform  ${
+                renderedBottom
+                  ? "translate-y-0 opacity-100"
+                  : "translate-y-20 opacity-0"
+              }  transition-all ease-in-out duration-[3000ms]`}
+            >
               <h4 className="mt-4 mb-5 text-2xl tracking-widest">FIESTA</h4>
               <p className="mb-6 font-light">
                 Después de la ceremonia festejaremos en el
