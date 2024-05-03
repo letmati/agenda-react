@@ -31,7 +31,7 @@ export default function Cbu() {
           }  transition-all ease-in-out duration-[3000ms]`}
         >
           <p className="text-white mb-4">
-            Si deseás realizarnos un regalo podés colaborar con nuestra Luna de
+            Si deseas realizarnos un regalo podés colaborar con nuestra Luna de
             Miel...
           </p>
           <a
